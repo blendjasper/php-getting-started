@@ -1,6 +1,6 @@
 <?php
-
-require('../vendor/autoload.php');
+// going to make a mistake
+require('.../vendor/autoload.php');
 
 $app = new Silex\Application();
 $app['debug'] = true;
